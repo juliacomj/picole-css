@@ -1,0 +1,92 @@
+body {
+    background-color: #FED550;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ice-cream{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 240px;
+    height: 350px;
+    background: #F982BF;
+    border-top: 8px solid #FF98CC ;
+    border-radius: 120px;
+    border-bottom-left-radius:42px ;
+    border-bottom-right-radius:42px ;
+}
+
+.eyes{
+    display: flex;
+    justify-content: space-between;
+    width: 145px;
+}
+
+
+.glare {
+    position: relative;
+    left: 170px;
+    bottom: 5%;
+    transform: rotate(-38deg);
+    width: 35px;
+    height: 70px;
+    background: #FF98CC;
+    border-radius: 60%;
+  }
+
+  .face{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      height: 58px;
+  }
+  
+  .eye {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    background: #FF2995;
+    border-radius: 100%;
+  }
+
+  .eye::before{
+      display: block;
+      content: '';
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 5px;
+      height: 5px;
+      background: #fff;
+      border-radius: 100%;
+  }
+  
+  .mouth {
+    width: 75px;
+    height: 25px;
+    background: #FF2995;
+    border-radius: 10px;
+    border-bottom-left-radius:42px ;
+    border-bottom-right-radius:42px ;
+    border-bottom: 2px solid #FF98CC;
+  }
+  
+  .stick {
+    width: 60px;
+    height: 72px;
+    background: #ECAA7D;
+    border-top: 12px solid #DB9E74;
+    border-bottom-left-radius:42px ;
+    border-bottom-right-radius:42px ;
+  }
